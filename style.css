@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+#clock{
+    margin-left: 30%;
+    margin-top: 1%;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    border: 1vw #3AAFFF solid; 
+    position: relative;
+    box-shadow: inset 0 0 15px -2px #444444;
+}
+#centre{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    background-color:goldenrod;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hand{
+    position: absolute;
+    bottom: 49%;
+    left: 49.5%;
+    transform-origin: bottom;
+    background-color: #3AAFFF;
+}
+#hour{
+    height:9vw ;
+    width: .8vw;
+}
+#min{
+    height:14vw ;
+    width: .5vw;
+}
+#second{
+    height:16vw ;
+    width: .3vw;
+}
+.no{
+    font-size: 2vw;
+    font-family: ogg;
+    color: goldenrod;
+}
+#twelve{
+   position: absolute;
+   left: 46%; 
+   top: 2%;
+}
+#three{
+    position: absolute;
+    right: 2%; 
+    top: 46%;
+ }
+ #six{
+    position: absolute;
+    left: 48%; 
+    
+    bottom: 2%;
+ }
+ #nine{
+    position: absolute;
+    left: 2%; 
+    top: 46%;
+ }
